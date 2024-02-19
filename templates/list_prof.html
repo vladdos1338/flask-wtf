@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<meta charset="utf-8">
+<h2 align="left">Список проффесий</h2>
+{% if 'ol' == list %}
+    <ol padding-left: 40px>
+        {% for item in proffesions %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ol>
+{% elif 'ul' == list %}
+    <ul padding-left: 40px>
+        {% for item in proffesions %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Вы ввели неверный параметр. Работа миссии под невероятнейшей угрозой! Срочно исправьте параметр на верный!</p>
+{% endif %}
+
+{% endblock %}
