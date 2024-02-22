@@ -1,0 +1,31 @@
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #9900FF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h4 {
+    color: #CCCCCC;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+}
+
+h1.access {
+    background-image: url(static/img/MARS.png) no-repeat;
+    padding-left: 115px;
+}
+
+h3.mission {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 42px;
+}
